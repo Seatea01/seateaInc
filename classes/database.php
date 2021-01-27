@@ -11,7 +11,7 @@ class Database
 
 	public function connect()
 	{
-		$string = "mysql:host= 	l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=i63ky60fkiv1kh2w";
+		$string = "mysql:host=l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=i63ky60fkiv1kh2w";
 		try
 		{
 			$connection = new PDO($string, DBUSER, DBPASS);
