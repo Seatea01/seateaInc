@@ -54,7 +54,7 @@
 								$result2 = $DB->read($sql, $a);
 								if (is_array($result2)) 
 								{
-									$result2 = array_reverse($result2);
+									$result2 = $result2;
 									foreach ($result2 as $data) {
 										$myuser = $DB->get_user($data->sender);
 										if ($_SESSION['userid'] == $data->sender) {
