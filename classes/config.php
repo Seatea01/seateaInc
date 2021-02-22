@@ -1,5 +1,5 @@
 <?php
-define('DB', "i63ky60fkiv1kh2w");
-define('DBUSER', "tx0xztmm7ucp2bjg");
-define('DBPASS', "jq2prsigpg3k2f0x");
-define('DBHOST', "l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com");
+define('DBNAME', "tosin");
+define('DBUSER', "bdd4e62a44aca9");
+define('DBPASS', "ebd092d5");
+define('DBHOST', "us-cdbr-east-03.cleardb.com");
