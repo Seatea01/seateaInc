@@ -20,6 +20,7 @@
 		}
 		#wrapper{
 			max-width: 900px;
+                        min-height: 500px;
 			margin: auto;
 			color: #fff;
 			font-family: myFont;
@@ -65,6 +66,15 @@
 			color: white; 
 			display: none;
 		}
+@media only screen and (max-width: 600px) {
+  #wrapper {
+  }
+form{
+padding: 20px;
+margin: auto;
+}
+}
+
 	</style>
 </head>
 <body>
