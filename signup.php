@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,6 +69,12 @@
     Width: 100%;
     height: auto;
   }
+#myform{
+Width: 100%;
+min-width: 500px;
+margin: auto;
+Background-color: blue;
+}
 }
 </style>
 </head>
