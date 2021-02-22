@@ -50,7 +50,7 @@
 								$arr2['sender'] = $_SESSION['userid'];
 								$arr2['receiver'] = $arr['userid'];
 								
-								$sql = "SELECT * FROM messages WHERE msgid = :msgid order by id desc";
+								$sql = "SELECT * FROM messages WHERE msgid = :msgid order by id asc";
 								$result2 = $DB->read($sql, $a);
 								if (is_array($result2)) 
 								{
