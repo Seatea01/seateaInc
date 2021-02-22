@@ -7,7 +7,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	<style type="text/css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	
+
+<style type="text/css">
 		@font-face{
 			font-family: headFont;
 			src: url(ui/fonts/Summer-Vibes-OTF.otf);
@@ -18,7 +20,6 @@
 		}
 		#wrapper{
 			max-width: 900px;
-			min-height: 500px; 
 			margin: auto;
 			color: #fff;
 			font-family: myFont;
@@ -34,7 +35,6 @@
 		}
 		form{
 			width: 100%;
-			max-width: 400px;
 			background-color: white;
 			margin: auto;
 			padding: 10px;
@@ -69,7 +69,7 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="header">myChat</div>
+		<div id="header">SeateaInc</div>
 		<div id="error"></div>
 		<form id="myform">
 			<input class="form-control form-control-sm" type="text" name="email" id="email" placeholder="Email"><br>
