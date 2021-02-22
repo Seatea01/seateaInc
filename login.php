@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MyChat | Sign Up</title>
+	<title>SeateaInc | Sign Up</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -19,8 +19,8 @@
 			src: url(ui/fonts/OpenSans-Regular.ttf);
 		}
 		#wrapper{
-			max-width: 900px;
-                        min-height: 500px;
+		        max-width: 900px;
+                        height: 500px;
 			margin: auto;
 			color: #fff;
 			font-family: myFont;
@@ -68,6 +68,7 @@
 		}
 @media only screen and (max-width: 600px) {
   #wrapper {
+padding: 10px;
   }
 form{
 padding: 20px;
