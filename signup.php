@@ -64,16 +64,16 @@
 			display: none;
 		}
                 
-	@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #wrapper {
     Width: 100%;
     height: auto;
+    Background-color: blue;
   }
 #myform{
-Width: 100%;
+width: 100%;
 min-width: 500px;
 margin: auto;
-Background-color: blue;
 }
 }
 </style>
