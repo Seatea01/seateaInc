@@ -90,7 +90,6 @@ margin: auto;
 				Gender:<br>
 				<input type="radio" name="gender_male" id="gender" value="Male">Male<br>
 				<input type="radio" name="gender_female" id="gender" value="Female">Female
-			</div>
 			<input type="password" name="password" id="password" placeholder="Password"><br><br>
 			<input type="password" name="password2" placeholder="Retype Password"><br><br>
 			<input type="button" id="signup_button" value="Signup"><br><br>
