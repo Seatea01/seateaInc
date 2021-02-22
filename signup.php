@@ -64,7 +64,14 @@
 			color: white; 
 			display: none;
 		}
-	</style>
+                
+	@media only screen and (max-width: 600px) {
+  #wrapper {
+    Width: 100%;
+    height: auto;
+  }
+}
+</Style>
 </head>
 <body>
 	<div id="wrapper">
