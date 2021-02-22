@@ -40,11 +40,9 @@
 			color: black;
 		}
 		input[type=text], input[type=password], input[type=button]{
-			width: 100%;
 			color: gray;
 			border-radius: 5px;
 			border: solid thin gray;
-			height: 25px;
 		}
 		input[type=button]{
 			 background-color: #1b6879;
@@ -71,6 +69,10 @@
 @media only screen and (max-width: 600px) {
   #wrapper {
   }
+form{
+padding: 20px;
+margin: auto;
+}
 }
 </style>
 </head>
@@ -80,15 +82,15 @@
 		<div style="font-size: 19px; font-family: myFont;">Signup</div></div>
 		<div id="error"></div>
 		<form id="myform">
-			<input class="form-control form-control-sm" type="text" name="username" id="username" placeholder="Username"><br><br>
+			<input class="form-control form-control-sm" type="text" name="username" id="username" placeholder="Username"><br>
 			<input class="form-control form-control-sm" type="text" name="email" id="email" placeholder="Email"><br>
 			<div style="padding: 5px;">
 				Gender:<br>
 				<input type="radio" name="gender_male" id="gender" value="Male">Male<br>
 				<input type="radio" name="gender_female" id="gender" value="Female">Female
                          </div>
-			<input class="form-control form-control-sm" type="password" name="password" id="password" placeholder="Password"><br><br>
-			<input class="form-control form-control-sm" type="password" name="password2" placeholder="Retype Password"><br><br>
+			<input class="form-control form-control-sm" type="password" name="password" id="password" placeholder="Password"><br>
+			<input class="form-control form-control-sm" type="password" name="password2" placeholder="Retype Password"><br>
 			<input type="button" id="signup_button" value="Signup"><br><br>
 			<div id="ask">Already a member? Kindly <a style="text-decoration: none;" href="login.php"> Sign in </a> here</div>
 		
