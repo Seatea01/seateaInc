@@ -71,7 +71,7 @@
     height: auto;
   }
 }
-</Style>
+</style>
 </head>
 <body>
 	<div id="wrapper">
