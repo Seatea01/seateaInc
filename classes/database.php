@@ -11,7 +11,7 @@ class Database
 
 	public function connect()
 	{
-		$string = "mysql:host=us-cdbr-east-03.cleardb.com;dbname=bdd4e62a44aca9";
+		$string = "mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_2f65c3d32b5755d";
 		try
 		{
 			$connection = new PDO($string, DBUSER, DBPASS);
