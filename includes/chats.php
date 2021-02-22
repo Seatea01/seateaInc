@@ -47,7 +47,7 @@
 								$result2 = $DB->read($sql, $a);
 								if (is_array($result2)) 
 								{
-									$result2 = array_reverse($result2);
+									$result2 = $result2;
 									
 									foreach ($result2 as $data) {
 
