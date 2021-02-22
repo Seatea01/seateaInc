@@ -3,6 +3,10 @@
 <head>
 	<title>MyChat | Sign Up</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<style type="text/css">
 		@font-face{
 			font-family: headFont;
@@ -29,7 +33,6 @@
 		}
 		form{
 			width: 100%;
-			max-width: 400px;
 			background-color: white;
 			margin: auto;
 			padding: 10px;
@@ -67,21 +70,7 @@
                 
 @media only screen and (max-width: 600px) {
   #wrapper {
-    Width: 100%;
-    height: auto;
-    Background-color: blue;
   }
-form{
-width: 100%;
-min-width: 500px;
-margin: auto;
-Padding: 2px;
-}
-input[type=text], input[type=password], input[type=button]{
-			width: 80%;
-height: auto;
-
-}
 }
 </style>
 </head>
@@ -91,15 +80,15 @@ height: auto;
 		<div style="font-size: 19px; font-family: myFont;">Signup</div></div>
 		<div id="error"></div>
 		<form id="myform">
-			<input type="text" name="username" id="username" placeholder="Username"><br><br>
-			<input type="text" name="email" id="email" placeholder="Email"><br>
+			<input class="form-control form-control-sm" type="text" name="username" id="username" placeholder="Username"><br><br>
+			<input class="form-control form-control-sm" type="text" name="email" id="email" placeholder="Email"><br>
 			<div style="padding: 5px;">
 				Gender:<br>
 				<input type="radio" name="gender_male" id="gender" value="Male">Male<br>
 				<input type="radio" name="gender_female" id="gender" value="Female">Female
                          </div>
-			<input type="password" name="password" id="password" placeholder="Password"><br><br>
-			<input type="password" name="password2" placeholder="Retype Password"><br><br>
+			<input class="form-control form-control-sm" type="password" name="password" id="password" placeholder="Password"><br><br>
+			<input class="form-control form-control-sm" type="password" name="password2" placeholder="Retype Password"><br><br>
 			<input type="button" id="signup_button" value="Signup"><br><br>
 			<div id="ask">Already a member? Kindly <a style="text-decoration: none;" href="login.php"> Sign in </a> here</div>
 		
