@@ -78,7 +78,7 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="header">myChat
+		<div id="header">SeateaInc
 		<div style="font-size: 19px; font-family: myFont;">Signup</div></div>
 		<div id="error"></div>
 		<form id="myform">
